@@ -1,0 +1,30 @@
+{
+  "name": "tictactoew12d1",
+  "version": "1.0.0",
+  "description": "W12D1 exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "webpack --watch & nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bschult/tictactoeW12D1.git"
+  },
+  "author": "Brian Schultz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bschult/tictactoeW12D1/issues"
+  },
+  "homepage": "https://github.com/bschult/tictactoeW12D1#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "path": "^0.12.7",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-preset-react": "^6.23.0"
+  }
+}
